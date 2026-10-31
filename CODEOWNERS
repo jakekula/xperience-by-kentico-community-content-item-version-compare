@@ -4,4 +4,4 @@
 # GitHub reads the first CODEOWNERS it finds in .github/, the repository root, then docs/.
 # A template built on top of this one overrides this file by adding .github/CODEOWNERS.
 
-* @Kentico/platform-engineering
+* @jakekula

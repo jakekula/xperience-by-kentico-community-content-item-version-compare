@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>
+      Compare any two versions of a content item side by side in the Xperience by Kentico
+      administration, with the changes highlighted in place.
+    </Description>
+    <PackageTags>$(PackageTags);versioning;content-hub;admin-ui</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kentico.Xperience.Admin" />
+  </ItemGroup>
+
+</Project>

@@ -31,7 +31,7 @@ stages:
             value: true
 
           - name: slnPath
-            value: src/Kentico.Xperience.RepoTemplate.Libs.slnx
+            value: src/Kentico.Xperience.ContentItemVersionCompare.Libs.slnx
 
         steps:
           - task: UseDotNet@2
@@ -104,8 +104,8 @@ stages:
               Configuration: $(Configuration)
               # Projects to pack and publish. Add an Admin UI project here when the repository has one.
               artifacts:
-                - artifactName: "Kentico-Xperience-RepoTemplate"
-                  projectPath: "src/Kentico.Xperience.RepoTemplate"
+                - artifactName: "Kentico-Xperience-ContentItemVersionCompare"
+                  projectPath: "src/Kentico.Xperience.ContentItemVersionCompare"
 
   - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}:
       - stage: PublishNuGetPackages

@@ -1,8 +1,6 @@
 # Contributing Setup
 
----This documents the steps a maintainer or developer would follow to work on the library in their development environment---
-
----Update the details for this project and delete the lines enclosed by three dashes---
+This documents the steps to work on the library in a development environment.
 
 ## Required Software
 
